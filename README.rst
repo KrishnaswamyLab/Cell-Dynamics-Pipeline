@@ -70,9 +70,9 @@ To run TrajectoryNet with a custom dataset use:
 See `notebooks/EB-Eval.ipynb` for an example on how to use TrajectoryNet on
 a PCA embedding to get trajectories in the gene space.
 
-TrajectoryNet save `backwards_trajectories.npy` which is a numpy file of trajectories. This file can be loaded and further processed in the Cell Dynamics Pipeline to learn Granger causal gene structures. This step can be found in `notebooks/granger-analysis.ipynb <https://github.com/KrishnaswamyLab/Cell-Dynamics-Pipeline/blob/master/notebooks/granger-analysis.ipynb>_`. This takes the data and learned trajectories and produces gene x gene graphs using the Total Granger Causal Score (TGCS).
+TrajectoryNet save `backwards_trajectories.npy` which is a numpy file of trajectories. This file can be loaded and further processed in the Cell Dynamics Pipeline to learn Granger causal gene structures. This step can be found in `notebooks/granger-analysis.ipynb <https://github.com/KrishnaswamyLab/Cell-Dynamics-Pipeline/blob/master/notebooks/granger-analysis.ipynb>`_. This takes the data and learned trajectories and produces gene x gene graphs using the Total Granger Causal Score (TGCS).
 
 Data
 ----
 
-All processed data can be found in the `release <https://github.com/KrishnaswamyLab/Cell-Dynamics-Pipeline/releases/tag/v0.0.1>`.
+All processed data can be found in the `release <https://github.com/KrishnaswamyLab/Cell-Dynamics-Pipeline/releases/tag/v0.0.1>`_.
